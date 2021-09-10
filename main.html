@@ -91,10 +91,14 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__title">扉のロックが解除された。</div>
+              <div class="clear-message__content"><br>
+                扉を開けると、またしてもフローリングの廊下が続いて、やはりその奥には同じキーロック式の扉があり、ひときわ大きな張り紙に描かれた暗号があった。<br>
+                「いつまで続くんだろう...。」<br>
+                そう不安に思っていると、扉の向こうからガサっと大きな物音が聞こえた。<br>
+                もしかしたら、この扉の向こうに白牙くんが誘拐犯と一緒にいるのかもしれない。<br>
+                そう考え、急いで謎を解き始めた。<br>
+              </div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
